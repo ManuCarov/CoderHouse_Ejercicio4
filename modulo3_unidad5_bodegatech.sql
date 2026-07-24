@@ -36,13 +36,13 @@ VALUES
 SELECT * FROM inventario;
 
 UPDATE inventario SET stock_actual = 3 
-WHERE id = 1;
+WHERE id_producto = 1;
 
 UPDATE inventario SET stock_actual = 12 
-WHERE id = 2;
+WHERE id_producto = 2;
 
 UPDATE inventario SET stock_actual = 5 
-WHERE id = 6;
+WHERE id_producto = 6;
 
 UPDATE inventario SET activo = 0 
 WHERE id_producto = 8;
